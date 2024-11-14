@@ -32,7 +32,7 @@ jobs:
       - name: Run MATLAB command
         uses: matlab-actions/run-command@v2
         with:
-          command: ver
+          command: pwd
 
       # TASK 1 - Runs all tests in the repository using run-tests action
       # - name: Run all tests
